@@ -1,5 +1,5 @@
 const API_URL = window.location.hostname == 'localhost' ? 'http://localhost:3000/api/v1/products' : 'https://your-new-created-app-url-from-herokuapp.com/api/v1/products';
-
+//above code point to server from local computer or internet server like heroku,just get heroku app url
 function getIdFromQuery()
 {
     const parts = window.location.search.match(/\?id=([0-9]+)/);
