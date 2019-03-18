@@ -1,4 +1,4 @@
-const API_URL = window.location.hostname == 'localhost' ? 'http://localhost:3000/api/v1/products' : 'https://dolo-store.herokuapp.com/api/v1/products';
+const API_URL = window.location.hostname == 'localhost' ? 'http://localhost:3000/api/v1/products' : 'https://your-new-created-new-app-url-on-herokuapp.com/api/v1/products';
 
 function getIdFromQuery()
 {
