@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dapo Store</title>
+    <link rel="stylesheet" href="style/style.css">
+    <style>
+            main {
+                margin-top: 1em;
+            }
+    </style>
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-light bg-light">
+            <a class="navbar-brand" href="/">Dapo Oloruntola</a>
+            <a class="nav-link" href="/create.html">Create</a>
+          </nav>
+    </header>
+    <main class="container">
+            <div class="alert alert-danger" role="alert" id="errorMessage">    
+            </div>
+        <form>
+            <div class="form-group">
+              <label for="title">Title</label>
+              <input type="text" class="form-control" name="title" id="title" placeholder="Enter Title">
+           </div>
+
+           <div class="form-group">
+                <label for="description">Description</label>
+                <textarea class="form-control" id="description" name="description" placeholder="Enter Description"></textarea>
+            </div>
+
+            <div class="form-group">
+                    <label for="price">Price</label>
+                    <input type="number" name="price" step="0.01" class="form-control" id="price">
+            </div>
+
+            <div class="form-group">
+                    <label for="image">Image</label>
+                    <input type="url" class="form-control" id="image" name="image" placeholder="Paste Image">
+            </div>
+
+            <div class="form-group">
+                    <label for="quantity">Quantity</label>
+                    <input type="number" name="quantity"  class="form-control" id="quantity">
+            </div>
+
+            <button type="submit" class="btn btn-info">Create</button>
+     
+        </form>
+    </main>
+    <script src="shared.js" charset="utf-8"></script>
+    <script src="create.js" charset="utf-8"></script>
+</body>
+</html>
